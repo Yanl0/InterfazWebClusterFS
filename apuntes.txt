@@ -1,0 +1,23 @@
+########################## COMANDOS Python #####################################
+pip freeze > requirements.txt
+
+########################## INFORMACION #########################################
+Server1:
+    hostname: GlusterFS-Main
+    domain name: glusterfsmain.proyecto.es
+    ip: 192.168.1.100
+
+Server2:
+    hostname: GlusterFS-2
+    domain name: glusterfs2.proyecto.es
+    ip: 192.168.1.101
+
+########################### COMANDOS UBUNTU #########################################
+1. Instalar GlusterFS
+    sudo apt-get update
+    sudo apt-get install glusterfs-server
+
+2. Crear volumen de unidad logica
+
+############################ BIBLIOGRAFIA ###########################################
+https://www.digitalocean.com/community/tutorials/how-to-create-a-redundant-storage-pool-using-glusterfs-on-ubuntu-20-04-es
